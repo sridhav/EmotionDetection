@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Sound
+Bundle-SymbolicName: Sound
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: Sound.jar,
+ bin/Sound.jar
+Export-Package: .,
+ sound

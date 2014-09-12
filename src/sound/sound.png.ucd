@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="1112,1129" id="sound" metadata="uml2-1.0" initialized="true" tag="10" key="32303037303533312D313020536F756E64">
+  <children xsi:type="editmodel:ClassEditModel" name="Svm" location="486,779" size="134,139" id="sound/Svm" runTimeClassModel="train(Ljava.lang.String;),predict(Ljava.io.File;Ljava.lang.String;Ljava.lang.String;),exec,in,out">
+    <children xsi:type="editmodel:CompartmentEditModel" size="111,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="exec" id="sound/Svm#exec"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="in" id="sound/Svm#in"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="out" id="sound/Svm#out"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="63,36">
+      <children xsi:type="editmodel:MethodEditModel" name="predict" id="sound/Svm#predict(Ljava.io.File;Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="train" id="sound/Svm#train(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="WavFileException" location="279,779" size="157,121" id="sound/WavFileException" runTimeClassModel="WavFileException(Ljava.lang.String;),WavFileException(Ljava.lang.String;Ljava.lang.Throwable;),WavFileException(),WavFileException(Ljava.lang.Throwable;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="115,72">
+      <children xsi:type="editmodel:MethodEditModel" name="WavFileException" id="sound/WavFileException#WavFileException(Ljava.lang.Throwable;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="WavFileException" id="sound/WavFileException#WavFileException(Ljava.lang.String;Ljava.lang.Throwable;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="WavFileException" id="sound/WavFileException#WavFileException(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="WavFileException" id="sound/WavFileException#WavFileException()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="MFCC" location="253,50" size="156,265" id="sound/MFCC" runTimeClassModel="secondDiff,numCep,shiftInterval,inputSignal,getFinalMFCC(),melFilter([D[I),writeToFileMFCC(Ljava.io.File;Ljava.lang.String;),getMFCC(),firstDiff,finalMEDC,MFCC(Ljava.io.File;),writeToFileMEDC(Ljava.io.File;Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="133,108">
+      <children xsi:type="editmodel:AttributeEditModel" name="finalMEDC" id="sound/MFCC#finalMEDC"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="firstDiff" id="sound/MFCC#firstDiff"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="inputSignal" id="sound/MFCC#inputSignal"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="numCep" id="sound/MFCC#numCep"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="secondDiff" id="sound/MFCC#secondDiff"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="shiftInterval" id="sound/MFCC#shiftInterval"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="110,108">
+      <children xsi:type="editmodel:MethodEditModel" name="MFCC" id="sound/MFCC#MFCC(Ljava.io.File;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFinalMFCC" id="sound/MFCC#getFinalMFCC()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMFCC" id="sound/MFCC#getMFCC()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="melFilter" id="sound/MFCC#melFilter([D[I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="writeToFileMEDC" id="sound/MFCC#writeToFileMEDC(Ljava.io.File;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="writeToFileMFCC" id="sound/MFCC#writeToFileMFCC(Ljava.io.File;Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="TestWav" location="50,968" size="115,85" id="sound/TestWav" runTimeClassModel="testWaveFile(),testFile">
+    <children xsi:type="editmodel:CompartmentEditModel" size="75,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="testFile" id="sound/TestWav#testFile"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="92,18">
+      <children xsi:type="editmodel:MethodEditModel" name="testWaveFile" id="sound/TestWav#testWaveFile()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="CommandWindow" location="846,50" size="159,139" id="sound/CommandWindow" runTimeClassModel="printToFrame(Ljava.lang.String;),initialise(),frame,ta,sc">
+    <children xsi:type="editmodel:CompartmentEditModel" size="93,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="frame" id="sound/CommandWindow#frame"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sc" id="sound/CommandWindow#sc"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="ta" id="sound/CommandWindow#ta"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="92,36">
+      <children xsi:type="editmodel:MethodEditModel" name="initialise" id="sound/CommandWindow#initialise()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="printToFrame" id="sound/CommandWindow#printToFrame(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Capture" location="50,779" size="179,121" id="sound/Capture" runTimeClassModel="Capture(Ljava.lang.String;),capFileName,accuracy,out">
+    <children xsi:type="editmodel:CompartmentEditModel" size="156,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="accuracy" id="sound/Capture#accuracy"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="capFileName" id="sound/Capture#capFileName"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="out" id="sound/Capture#out"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="68,18">
+      <children xsi:type="editmodel:MethodEditModel" name="Capture" id="sound/Capture#Capture(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="MainInterface" location="459,50" size="134,283" id="sound/MainInterface" runTimeClassModel="init(),addButton(Ljavax.swing.JPanel;Ljavax.swing.JButton;),accuracyDisplay(),start(),display,setDisplay(Ljava.lang.String;),pane,actionPerformed(Ljava.awt.event.ActionEvent;),runMFCC(Ljava.io.File;Ljava.lang.String;I),paint(),accuracy,outputData,svmCommand(Ljava.lang.String;I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="108,72">
+      <children xsi:type="editmodel:AttributeEditModel" name="accuracy" id="sound/MainInterface#accuracy"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="display" id="sound/MainInterface#display"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="outputData" id="sound/MainInterface#outputData"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="pane" id="sound/MainInterface#pane"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="111,162">
+      <children xsi:type="editmodel:MethodEditModel" name="accuracyDisplay" id="sound/MainInterface#accuracyDisplay()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="actionPerformed" id="sound/MainInterface#actionPerformed(Ljava.awt.event.ActionEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addButton" id="sound/MainInterface#addButton(Ljavax.swing.JPanel;Ljavax.swing.JButton;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="init" id="sound/MainInterface#init()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="paint" id="sound/MainInterface#paint()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="runMFCC" id="sound/MainInterface#runMFCC(Ljava.io.File;Ljava.lang.String;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setDisplay" id="sound/MainInterface#setDisplay(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="start" id="sound/MainInterface#start()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="svmCommand" id="sound/MainInterface#svmCommand(Ljava.lang.String;I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="WavFile" location="50,50" size="153,679" id="sound/WavFile" runTimeClassModel="writeFrames([[III),writeFrames([[JI),writeFrames([[JII),numChannels,close(),readFrames([II),openWavFile(Ljava.io.File;),readFrames([III),writeFrames([III),readFrames([JII),writeFrames([DI),writeFrames([JII),display(),display(Ljava.io.PrintStream;),readFrames([[DII),readFrames([[III),readFrames([DII),writeFrames([JI),writeFrames([[DII),numFrames,writeFrames([II),sampleRate,readFrames([JI),readFrames([[DI),writeFrames([[II),newWavFile(Ljava.io.File;IJIJ),readFrames([[II),readFrames([DI),readFrames([[JII),writeFrames([DII),writeFrames([[DI),getFramesRemaining(),readFrames([[JI),getFrames(),validBits">
+    <children xsi:type="editmodel:CompartmentEditModel" size="101,72">
+      <children xsi:type="editmodel:AttributeEditModel" name="numChannels" id="sound/WavFile#numChannels"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="numFrames" id="sound/WavFile#numFrames"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sampleRate" id="sound/WavFile#sampleRate"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="validBits" id="sound/WavFile#validBits"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="130,558">
+      <children xsi:type="editmodel:MethodEditModel" name="close" id="sound/WavFile#close()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="display" id="sound/WavFile#display()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="display" id="sound/WavFile#display(Ljava.io.PrintStream;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFrames" id="sound/WavFile#getFrames()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFramesRemaining" id="sound/WavFile#getFramesRemaining()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="newWavFile" id="sound/WavFile#newWavFile(Ljava.io.File;IJIJ)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="openWavFile" id="sound/WavFile#openWavFile(Ljava.io.File;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="readFrames" id="sound/WavFile#readFrames([JI)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="readFrames" id="sound/WavFile#readFrames([DII)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="readFrames" id="sound/WavFile#readFrames([[DI)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="readFrames" id="sound/WavFile#readFrames([[JI)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="readFrames" id="sound/WavFile#readFrames([II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="readFrames" id="sound/WavFile#readFrames([DI)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="readFrames" id="sound/WavFile#readFrames([[DII)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="readFrames" id="sound/WavFile#readFrames([III)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="readFrames" id="sound/WavFile#readFrames([[JII)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="readFrames" id="sound/WavFile#readFrames([[II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="readFrames" id="sound/WavFile#readFrames([[III)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="readFrames" id="sound/WavFile#readFrames([JII)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="writeFrames" id="sound/WavFile#writeFrames([DII)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="writeFrames" id="sound/WavFile#writeFrames([[II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="writeFrames" id="sound/WavFile#writeFrames([[DI)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="writeFrames" id="sound/WavFile#writeFrames([JII)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="writeFrames" id="sound/WavFile#writeFrames([DI)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="writeFrames" id="sound/WavFile#writeFrames([[JII)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="writeFrames" id="sound/WavFile#writeFrames([II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="writeFrames" id="sound/WavFile#writeFrames([[III)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="writeFrames" id="sound/WavFile#writeFrames([III)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="writeFrames" id="sound/WavFile#writeFrames([[DII)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="writeFrames" id="sound/WavFile#writeFrames([[JI)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="writeFrames" id="sound/WavFile#writeFrames([JI)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="SelectedTestAndTrain" location="670,779" size="180,103" id="sound/SelectedTestAndTrain" runTimeClassModel="selectionFrame(),actionPerformed(Ljava.awt.event.ActionEvent;),accuracy">
+    <children xsi:type="editmodel:CompartmentEditModel" size="136,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="accuracy" id="sound/SelectedTestAndTrain#accuracy"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="109,36">
+      <children xsi:type="editmodel:MethodEditModel" name="actionPerformed" id="sound/SelectedTestAndTrain#actionPerformed(Ljava.awt.event.ActionEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="selectionFrame" id="sound/SelectedTestAndTrain#selectionFrame()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Training" location="643,50" size="153,193" id="sound/Training" runTimeClassModel="fileList,fileComboWriteMEDC(Ljava.io.File;Ljava.io.File;),directory,outputFile,trainingFile2,fileComboWrite(Ljava.io.File;Ljava.io.File;),trainingFile,Train()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="103,90">
+      <children xsi:type="editmodel:AttributeEditModel" name="directory" id="sound/Training#directory"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="fileList" id="sound/Training#fileList"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="outputFile" id="sound/Training#outputFile"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="trainingFile" id="sound/Training#trainingFile"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="trainingFile2" id="sound/Training#trainingFile2"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="130,54">
+      <children xsi:type="editmodel:MethodEditModel" name="Train" id="sound/Training#Train()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="fileComboWrite" id="sound/Training#fileComboWrite(Ljava.io.File;Ljava.io.File;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="fileComboWriteMEDC" id="sound/Training#fileComboWriteMEDC(Ljava.io.File;Ljava.io.File;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="fft" location="900,779" size="133,103" id="sound/fft" runTimeClassModel="computeFFT([D),real,imag">
+    <children xsi:type="editmodel:CompartmentEditModel" size="110,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="imag" id="sound/fft#imag"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="real" id="sound/fft#real"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="89,18">
+      <children xsi:type="editmodel:MethodEditModel" name="computeFFT" id="sound/fft#computeFFT([D)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" interactive="false" level="-1" showScope="InPackage" properties="wireOptions=1;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

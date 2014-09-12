@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:projects="http://www.soyatec.com/projects" xmi:id="_XeXyEIq1EeGLTor3YW9a9g" type="Projects" measurementUnit="Pixel">
+  <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XeXyEYq1EeGLTor3YW9a9g" source="Diagram_Wire_Options">
+    <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XeXyEoq1EeGLTor3YW9a9g" key="Diagram_Wire_Options" value="1"/>
+  </eAnnotations>
+  <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XeXyE4q1EeGLTor3YW9a9g" source="Show_Weight_Number">
+    <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XeXyFIq1EeGLTor3YW9a9g" key="Show_Weight_Number" value="0"/>
+  </eAnnotations>
+  <styles xmi:type="notation:PageStyle" xmi:id="_XeYZIYq1EeGLTor3YW9a9g"/>
+  <styles xmi:type="notation:GuideStyle" xmi:id="_XeYZIoq1EeGLTor3YW9a9g"/>
+  <styles xmi:type="notation:DescriptionStyle" xmi:id="_XeYZI4q1EeGLTor3YW9a9g"/>
+  <element xmi:type="projects:Diagram" href="plugins#/"/>
+</notation:Diagram>
